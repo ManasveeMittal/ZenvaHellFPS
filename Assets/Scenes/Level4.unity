@@ -1798,7 +1798,7 @@ GameObject:
   - component: {fileID: 78356324}
   m_Layer: 0
   m_Name: sp
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4149,7 +4149,7 @@ GameObject:
   - component: {fileID: 197850769}
   m_Layer: 0
   m_Name: sp (10)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4374,7 +4374,7 @@ GameObject:
   - component: {fileID: 214615825}
   m_Layer: 0
   m_Name: sp (18)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6019,7 +6019,7 @@ GameObject:
   - component: {fileID: 307052614}
   m_Layer: 0
   m_Name: sp (8)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7250,7 +7250,7 @@ GameObject:
   - component: {fileID: 346977626}
   m_Layer: 0
   m_Name: sp (4)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7788,7 +7788,7 @@ GameObject:
   - component: {fileID: 365492796}
   m_Layer: 0
   m_Name: sp (12)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9695,7 +9695,7 @@ GameObject:
   - component: {fileID: 432863274}
   m_Layer: 0
   m_Name: sp (9)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12286,7 +12286,7 @@ GameObject:
   - component: {fileID: 556310405}
   m_Layer: 0
   m_Name: sp (11)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12655,7 +12655,7 @@ GameObject:
   - component: {fileID: 566281034}
   m_Layer: 0
   m_Name: sp (16)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20613,7 +20613,7 @@ GameObject:
   - component: {fileID: 911241303}
   m_Layer: 0
   m_Name: sp (6)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21584,7 +21584,7 @@ GameObject:
   - component: {fileID: 939103147}
   m_Layer: 0
   m_Name: sp (2)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22301,7 +22301,7 @@ GameObject:
   - component: {fileID: 979772030}
   m_Layer: 0
   m_Name: sp (3)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29334,7 +29334,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1309420792
 Transform:
   m_ObjectHideFlags: 0
@@ -31335,7 +31335,7 @@ GameObject:
   - component: {fileID: 1433345476}
   m_Layer: 0
   m_Name: sp (5)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32185,7 +32185,7 @@ GameObject:
   - component: {fileID: 1492869465}
   m_Layer: 0
   m_Name: sp (13)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33547,7 +33547,7 @@ GameObject:
   - component: {fileID: 1543122886}
   m_Layer: 0
   m_Name: sp (20)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34155,7 +34155,7 @@ GameObject:
   - component: {fileID: 1562568058}
   m_Layer: 0
   m_Name: sp (19)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35507,7 +35507,7 @@ GameObject:
   - component: {fileID: 1609040458}
   m_Layer: 0
   m_Name: sp (17)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36759,7 +36759,7 @@ GameObject:
   - component: {fileID: 1670991872}
   m_Layer: 0
   m_Name: sp (21)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38866,7 +38866,7 @@ GameObject:
   - component: {fileID: 1786839892}
   m_Layer: 0
   m_Name: sp (14)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39419,31 +39419,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 74.3
+      value: -6.0334406
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.2
+      value: 2.608151
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -25.8
+      value: -10.042917
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.011452832
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.2929347
+      value: -0.9961947
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.04741414
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.95488745
+      value: -0.08715578
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_RootOrder
@@ -39451,15 +39451,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -2.8460002
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 33.99
+      value: -190
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 4.815
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41979,7 +41979,7 @@ GameObject:
   - component: {fileID: 1915162704}
   m_Layer: 0
   m_Name: sp (15)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46064,7 +46064,7 @@ GameObject:
   - component: {fileID: 2113340404}
   m_Layer: 0
   m_Name: sp (7)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46611,7 +46611,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2127459322
 Transform:
   m_ObjectHideFlags: 0
@@ -46872,7 +46872,7 @@ GameObject:
   - component: {fileID: 2129524974}
   m_Layer: 0
   m_Name: sp (1)
-  m_TagString: SpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
