@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DitzeGames.MobileJoystick;
 
 public class HandgunFire : MonoBehaviour
 {
@@ -13,10 +14,13 @@ public class HandgunFire : MonoBehaviour
     public int damageAmount = 5;
     public float targetDistance;
 
+    public Button fireButton;
+    public Button reloadAmmoButton;
+
     void Update()
     {
         // fire on left-mouse-key press
-        if (Input.GetButtonDown("Fire1"))
+        if ( Input.GetButtonDown("Fire1")  ||  fireButton.Pressed == true)
         {
             if (GlobalStats.magazineAmmo < 1)
             {
@@ -31,6 +35,8 @@ public class HandgunFire : MonoBehaviour
                 }
             }
         }
+
+        ReloadAmmo();
     }
 
     void OnFireButtonPress()
@@ -75,5 +81,13 @@ public class HandgunFire : MonoBehaviour
             theGun.GetComponent<Animator>().Play("FPSHand|Stand");
             isFiring = false;
         }
- }
+
+    public void ReloadAmmo()
+    {
+        if (Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2) || reloadAmmoButton.Pressed )
+        {
+            GlobalStats.magazineAmmo = 9;
+        }
+    }
+}
 

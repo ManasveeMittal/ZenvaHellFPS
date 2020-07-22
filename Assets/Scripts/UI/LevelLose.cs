@@ -14,10 +14,12 @@ public class LevelLose : MonoBehaviour
     {
         StartCoroutine(DeclareLevelLose());
 
+        /*
         if(levelResetStatus == true)
         {
             ResetGaneOnLevelLose();
         }
+        */
     }
 
 
@@ -49,6 +51,7 @@ public class LevelLose : MonoBehaviour
         }
     }
 
+    /*
     void ResetGaneOnLevelLose()
     {
         LevelLoseGo.SetActive(false);
@@ -64,4 +67,5 @@ public class LevelLose : MonoBehaviour
 
         levelResetStatus = false;
     }
+    */
 }

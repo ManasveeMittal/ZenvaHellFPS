@@ -23,6 +23,7 @@ public class GlobalStats : MonoBehaviour
         MagazineAmmoStatus();
         ReloadAmmo();
     }
+
     void MagazineAmmoStatus()
     {
         if (magazineAmmo <= 0 && InGameUIGo.activeSelf ==true)
@@ -37,7 +38,7 @@ public class GlobalStats : MonoBehaviour
 
     public void ReloadAmmo()
     {
-        if (Input.GetKeyDown(KeyCode.R) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
+        if (Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
         {
             magazineAmmo = 9;
         }
