@@ -15,19 +15,27 @@ public class LoadNextLevel : MonoBehaviour
 
     IEnumerator LoadNextLevelFunction()
     {
-        yield return new WaitForSeconds(3f);
-
-        for(int i=5; i>0; i--)
+        if(PlayerPrefs.GetInt("levelIndex") != 10)
         {
-            LoadNextLevelText.text = "Loading Next Level in \n" + i ;
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(3f);
+
+            for (int i = 5; i > 0; i--)
+            {
+                LoadNextLevelText.text = "Loading Next Level in \n" + i;
+                yield return new WaitForSeconds(1f);
+            }
+
+            int temp = PlayerPrefs.GetInt("levelIndex");
+            temp += 1;
+            PlayerPrefs.SetInt("levelIndex", temp);
+
+            string levelName = "Level" + PlayerPrefs.GetInt("levelIndex");
+            SceneManager.LoadScene(levelName);
+        }
+        else
+        {
+            LoadNextLevelText.text = "Game Over\n You are the King";
         }
 
-        int temp = PlayerPrefs.GetInt("levelIndex");
-        temp += 1;
-        PlayerPrefs.SetInt("levelIndex", temp);
-
-        string levelName = "Level" + PlayerPrefs.GetInt("levelIndex");
-        SceneManager.LoadScene(levelName);
     }
 }
