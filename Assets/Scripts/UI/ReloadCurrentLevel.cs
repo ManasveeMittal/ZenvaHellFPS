@@ -23,7 +23,7 @@ public class ReloadCurrentLevel : MonoBehaviour
             yield return new WaitForSeconds(1f);
         }
 
-        string levelName = "Level" + GlobalManager.currentLevel;
+        string levelName = "Level" + PlayerPrefs.GetInt("levelIndex");
         SceneManager.LoadScene(levelName);
     }
 }

@@ -16,17 +16,19 @@ public class Menu : MonoBehaviour
     IEnumerator NewGameRoutine()
     {
         clickFX.Play();
+        PlayerPrefs.SetInt("levelIndex", 1);
 
         yield return new WaitForSeconds(0.1f);
-        SceneManager.LoadScene("Level3");
+
+        string levelName = "Level" + PlayerPrefs.GetInt("levelIndex");
+        SceneManager.LoadScene(levelName);
     }
 
     public void ReloadSavedGame()
     {
         clickFX.Play();
 
-        GlobalManager.currentLevel += 1;
-        string levelName = "Level" + GlobalManager.currentLevel;
+        string levelName = "Level" + PlayerPrefs.GetInt("levelIndex");
         SceneManager.LoadScene(levelName);
     }
 

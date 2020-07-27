@@ -23,8 +23,11 @@ public class LoadNextLevel : MonoBehaviour
             yield return new WaitForSeconds(1f);
         }
 
-        GlobalManager.currentLevel += 1;
-        string levelName = "Level" + GlobalManager.currentLevel;
+        int temp = PlayerPrefs.GetInt("levelIndex");
+        temp += 1;
+        PlayerPrefs.SetInt("levelIndex", temp);
+
+        string levelName = "Level" + PlayerPrefs.GetInt("levelIndex");
         SceneManager.LoadScene(levelName);
     }
 }

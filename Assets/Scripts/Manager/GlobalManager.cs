@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class GlobalManager : MonoBehaviour
 {
-    public static int currentLevel = 3;
     public static bool levelWinStatus = false;
     public static bool levelLoseStatus = false;
 
@@ -50,8 +49,11 @@ public class GlobalManager : MonoBehaviour
 
         yield return new WaitForSeconds(5f);
 
-        currentLevel += 1;
-        string NextLevelName = "Level" + currentLevel;
+        int temp = PlayerPrefs.GetInt("levelIndex");
+        temp += 1;
+        PlayerPrefs.SetInt("levelIndex", temp);
+
+        string NextLevelName = "Level" + PlayerPrefs.GetInt("levelIndex");
         SceneManager.LoadScene(NextLevelName);
 
         Debug.Log(NextLevelName + "loaded");
@@ -63,7 +65,7 @@ public class GlobalManager : MonoBehaviour
 
         yield return new WaitForSeconds(5f);
 
-        string currentLevelName = "Level" + currentLevel;
+        string currentLevelName = "Level" + PlayerPrefs.GetInt("levelIndex");
         SceneManager.LoadScene(currentLevelName);
 
         Debug.Log(currentLevelName + "loaded");

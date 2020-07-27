@@ -16,7 +16,7 @@ public class EnemyDeath : MonoBehaviour
         {
             enemyDead = true;
 
-            GlobalStats.levelScore += Random.Range(0, 5) * Random.Range(0, 5) * GlobalStats.levelIndex + 20;
+            GlobalStats.levelScore += Random.Range(0, 5) * Random.Range(0, 5) * PlayerPrefs.GetInt("levelIndex") + 20;
 
             GlobalManager globalManager = GlobalManager.Get();
             globalManager.Play(deathFX);

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LevelStartUp : MonoBehaviour
 {
@@ -25,6 +26,9 @@ public class LevelStartUp : MonoBehaviour
         GlobalStats.magazineAmmo = 9;
         GlobalStats.PlayerHP = 100;
         GlobalStats.levelScore = 0;
+
+        Debug.Log(SceneManager.GetActiveScene().name + " is loaded");
+        Debug.Log("Level  "+ PlayerPrefs.GetInt("levelIndex") + " is loaded");
 
         gameStart = false;
 
