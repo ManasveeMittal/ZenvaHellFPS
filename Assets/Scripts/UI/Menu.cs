@@ -21,6 +21,15 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Level3");
     }
 
+    public void ReloadSavedGame()
+    {
+        clickFX.Play();
+
+        GlobalManager.currentLevel += 1;
+        string levelName = "Level" + GlobalManager.currentLevel;
+        SceneManager.LoadScene(levelName);
+    }
+
     public void QuitGame()
     {
         clickFX.Play();

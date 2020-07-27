@@ -19,6 +19,7 @@ public class LevelWin : MonoBehaviour
     void DeclareLevelWin()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
         if (enemies.Length == 0 && LevelStartUp.gameStart == true)
         {
             //yield return new WaitForSeconds(.1f);
