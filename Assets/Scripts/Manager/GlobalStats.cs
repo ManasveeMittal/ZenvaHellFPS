@@ -10,7 +10,7 @@ public class GlobalStats : MonoBehaviour
     public static int magazineAmmo;
     public static int ammoCount;
     public static int levelScore;
-    public static int levelIndex = 3;
+    public static int levelIndex = 1;
 
     public GameObject magazineAmmoDisplay;
     public GameObject reloadMessage;
