@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2409952849470743831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2409952849470743827}
+  - component: {fileID: 2409952849470743826}
+  - component: {fileID: 2409952849470743825}
+  - component: {fileID: 2409952849470743824}
+  - component: {fileID: 2409952849470743836}
+  - component: {fileID: 2409952849470743837}
+  - component: {fileID: 2409952849470743838}
+  - component: {fileID: 2409952849470743839}
+  m_Layer: 0
+  m_Name: GlobalManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2409952849470743827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409952849470743831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2409952849470743826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409952849470743831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c3098234f1d96044855c1d7fdfb978c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2409952849470743825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409952849470743831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b1eb021db0274aabb76d9dd93a024, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  magazineAmmoDisplay: {fileID: 0}
+  reloadMessage: {fileID: 0}
+  InGameUIGo: {fileID: 0}
+--- !u!114 &2409952849470743824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409952849470743831}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e80e69c5cc21d34f9c49b72edae0514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuGo: {fileID: 0}
+  theGun: {fileID: 0}
+--- !u!114 &2409952849470743836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409952849470743831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c87bb4fcca9a847cf89cedfb856e9417, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2409952849470743837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409952849470743831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a099e0890a4484c629f2b4aa5e073228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScoreText: {fileID: 0}
+  playerHealthText: {fileID: 0}
+--- !u!114 &2409952849470743838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409952849470743831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2596de6a641244459bbd0800d2a480f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelWinGo: {fileID: 0}
+  InGameUIGo: {fileID: 0}
+  LevelWinScoreText: {fileID: 0}
+--- !u!114 &2409952849470743839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409952849470743831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3953b4fdf273e4f4880c989cb35dc180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelLoseGo: {fileID: 0}
+  InGameUIGo: {fileID: 0}
