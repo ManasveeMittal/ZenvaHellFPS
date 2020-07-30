@@ -7,7 +7,7 @@ public class CameraShake : MonoBehaviour
 	public static bool shouldCameraShake;
 
 	// Amplitude of the shake. A larger value shakes the camera harder.
-	public float shakeAmount = 0.1f;
+	public float shakeAmount = 0.15f;
 
 	Vector3 originalPos;
 
@@ -26,7 +26,7 @@ public class CameraShake : MonoBehaviour
 
     IEnumerator DoCameraShakeOnce()
 	{
-		transform.localPosition = originalPos + new Vector3(0, Random.Range(-1, 1) * shakeAmount, 0);
+		transform.localPosition = originalPos + new Vector3(0, shakeAmount, 0);
 		yield return new WaitForSeconds(.1f);
 		shouldCameraShake = false;
 		transform.localPosition = originalPos;

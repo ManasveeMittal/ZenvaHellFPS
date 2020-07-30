@@ -14,19 +14,7 @@ public class EnemyDeath : MonoBehaviour
     {
         if( enemyHealth <= 0 && enemyDead == false)
         {
-            enemyDead = true;
-
-            GlobalStats.levelScore += Random.Range(0, 5) * Random.Range(0, 5) * PlayerPrefs.GetInt("levelIndex") + 20;
-
-            GlobalManager globalManager = GlobalManager.Get();
-            globalManager.Play(deathFX);
-
-            Instantiate(deathEffect, transform.position+Vector3.up, transform.rotation, transform.parent.transform);
-            //theEnemy.GetComponent<Animator>().Play("EnemyDeath");
-            //yield return new WaitForSeconds(1f);
-            Destroy(this.gameObject);
-            //GlobalScore.scoreCount += 1000;
-            //GlobalComplete.enemyCount += 1;
+            StartCoroutine(EnemyDeathFunction());
         }
     }
 
@@ -34,4 +22,33 @@ public class EnemyDeath : MonoBehaviour
     {
         enemyHealth -= damageAmount;
     }
+
+    IEnumerator EnemyDeathFunction()
+    {
+        enemyDead = true;
+
+        //StartCoroutine(EnemyDeathAnimation());
+        string[] zombieDeathAnimations = {"left_fall", "back_fall", "right_fall" };
+        GetComponent<Animator>().Play( zombieDeathAnimations[ Random.Range(0, zombieDeathAnimations.Length) ] );
+        yield return new WaitForSeconds(0.5f);
+
+
+
+        GlobalStats.levelScore += Random.Range(0, 5) * Random.Range(0, 5) * PlayerPrefs.GetInt("levelIndex") + 20;
+
+        GlobalManager globalManager = GlobalManager.Get();
+        globalManager.Play(deathFX);
+
+        Instantiate(deathEffect, transform.position + Vector3.up, transform.rotation, transform.parent.transform);
+        //theEnemy.GetComponent<Animator>().Play("EnemyDeath");
+        //yield return new WaitForSeconds(1f);
+        Destroy(this.gameObject);
+        //GlobalScore.scoreCount += 1000;
+        //GlobalComplete.enemyCount += 1;
+    }
+
+    //IEnumerator EnemyDeathAnimation()
+    //{
+
+    //}
 }
