@@ -16,10 +16,6 @@ public class GlobalStats : MonoBehaviour
     public GameObject reloadMessage;
     public GameObject InGameUIGo;
 
-    private void Start()
-    {
-    }
-
     void Update()
     {
         magazineAmmoDisplay.GetComponent<Text>().text = magazineAmmo + " " + "/" + " 9";

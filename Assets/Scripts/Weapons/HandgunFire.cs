@@ -56,31 +56,35 @@ public class HandgunFire : MonoBehaviour
     }
 
     IEnumerator FireHandgun()
-        {
-            //set firing status to true
-            //play gun cocking animation
-            //play muzzle flash
-            //play firing sound
-            //reset everything
+    {
+        //set firing status to true
+        //play gun cocking animation
+        //play muzzle flash
+        //play firing sound
+        //reset everything
 
-            RaycastHit gunShot;
-            isFiring = true;
-            GlobalStats.ammoCount -= 1;
-            GlobalStats.magazineAmmo -= 1;
-            if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out gunShot))
-            {
-                targetDistance = gunShot.distance;
-                gunShot.transform.SendMessage("DamageEnemy", damageAmount, SendMessageOptions.DontRequireReceiver);
-            }
-            theGun.GetComponent<Animator>().Play("FPSHand|Fire");
-            //muzzleFlash.SetActive(true);
-            gunFireFX.Play();
-            yield return new WaitForSeconds(0.05f);
-            //muzzleFlash.SetActive(false);
-            yield return new WaitForSeconds(0.25f);
-            theGun.GetComponent<Animator>().Play("FPSHand|Stand");
-            isFiring = false;
+        RaycastHit gunShot;
+        isFiring = true;
+        GlobalStats.ammoCount -= 1;
+        GlobalStats.magazineAmmo -= 1;
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out gunShot))
+        {
+            targetDistance = gunShot.distance;
+            gunShot.transform.SendMessage("DamageEnemy", damageAmount, SendMessageOptions.DontRequireReceiver);
         }
+
+        CameraShake.shouldCameraShake = true; //shake camera on gunfire
+        theGun.GetComponent<Animator>().Play("FPSHand|Fire");
+        //muzzleFlash.SetActive(true);
+        gunFireFX.Play();
+        yield return new WaitForSeconds(0.05f);
+        //muzzleFlash.SetActive(false);
+        yield return new WaitForSeconds(0.25f);
+        theGun.GetComponent<Animator>().Play("FPSHand|Stand");
+        isFiring = false;
+    }
+
+
 
     public void ReloadAmmo()
     {

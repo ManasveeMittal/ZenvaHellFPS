@@ -15,30 +15,12 @@ MonoBehaviour:
   id: -1
   newId: 602eefcfbb7c5b042855c461f0f019ac
   order: 0
-  note: 'Add UI health bar
-
-    Add player health mechanism
-
-    reload ammo mechanism
-
-    Level start stop enemy instantite
-
-    enemy in groups from a location
-
-    player score and money bar per enemy
-
-    post processing
-
-    build on android
-
-    build on apple
-
-    level win panel
-
-    level lose panel
+  note: 'After 10 LEVELS
 
 
-'
+    camera shake made
+
+    gun holder made'
   tags: 
   color: {r: 1, g: 1, b: 1, a: 1}
   show: 1

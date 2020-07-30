@@ -956,7 +956,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Rock Pistol 9MM
+  m_Text: Glock MV
 --- !u!1 &7279609166125774470
 GameObject:
   m_ObjectHideFlags: 0
