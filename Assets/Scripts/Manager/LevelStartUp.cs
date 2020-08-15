@@ -16,6 +16,8 @@ public class LevelStartUp : MonoBehaviour
 
     public static bool gameStart;
 
+    public int prepareTime = 5;
+
     void Start()
     {
         globalManager = GlobalManager.Get();
@@ -38,7 +40,7 @@ public class LevelStartUp : MonoBehaviour
 
     IEnumerator StartAnimation()
     {
-        for(int i=5; i>0; i--)
+        for(int i= prepareTime; i>0; i--)
         {
             globalManager.Play(beep);
 

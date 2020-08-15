@@ -991,7 +991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -275, y: 600}
+  m_AnchoredPosition: {x: -275, y: 557}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 1, y: 0}
 --- !u!1 &7279609166211327386
@@ -1027,7 +1027,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 88, y: 563}
+  m_AnchoredPosition: {x: 88, y: 524}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &7279609166264409594
@@ -1248,7 +1248,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 73, y: 46.3}
+  m_AnchoredPosition: {x: 31, y: 46.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7279609166267031031
@@ -1402,7 +1402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 230, y: 44}
+  m_AnchoredPosition: {x: 191, y: 46.300014}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7279609166394138121
@@ -1694,6 +1694,7 @@ MonoBehaviour:
   gameBegins: {fileID: 8300000, guid: 5b8d300614e14a446b30f18ec5da0760, type: 3}
   InGameUIGo: {fileID: 7279609165582046271}
   theGun: {fileID: 0}
+  prepareTime: 5
 --- !u!1 &7279609166545348081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2249,7 +2250,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -575.8, y: 588}
+  m_AnchoredPosition: {x: -575.8, y: 563}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7279609167107000036
@@ -3103,7 +3104,7 @@ PrefabInstance:
     - target: {fileID: 224187004634754148, guid: ccf5d7d517c71bf46ad9135b30f777fa,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -12.349976
+      value: -12.3498535
       objectReference: {fileID: 0}
     - target: {fileID: 224187004634754148, guid: ccf5d7d517c71bf46ad9135b30f777fa,
         type: 3}

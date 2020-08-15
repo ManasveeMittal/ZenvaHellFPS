@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2409952849470743826}
   - component: {fileID: 2409952849470743825}
   - component: {fileID: 2409952849470743824}
-  - component: {fileID: 2409952849470743836}
   - component: {fileID: 2409952849470743837}
   - component: {fileID: 2409952849470743838}
   - component: {fileID: 2409952849470743839}
@@ -78,18 +77,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenuGo: {fileID: 0}
   theGun: {fileID: 0}
---- !u!114 &2409952849470743836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2409952849470743831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c87bb4fcca9a847cf89cedfb856e9417, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2409952849470743837
 MonoBehaviour:
   m_ObjectHideFlags: 0
