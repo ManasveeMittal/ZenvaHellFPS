@@ -21,32 +21,35 @@ EditorBuildSettings:
     path: Assets/Scenes/Level2.unity
     guid: 6d3364184364c41b5873147906082346
   - enabled: 1
+    path: Assets/Scenes/DownloadPaidGame/Level3.unity
+    guid: 48a75d0fd38b64031acc484741507a9a
+  - enabled: 0
     path: Assets/Scenes/Level9.unity
     guid: 17cdb14de6bad45359d20e9e644b1240
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level4.unity
     guid: ec4a98f4711a64c95a2ab9a049e56296
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level5.unity
     guid: e7115eb95ecac49fd9e28611953e9a38
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level6.unity
     guid: 5da971a3685084952b7c8a98b146700d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level7.unity
     guid: 6a44a77a9fa434f048d3d44937673ef2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level3.unity
     guid: 28043bbc547e44972b7b8f372fea36a2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level8.unity
     guid: 358e75d07f9f645db8ce1062485c77d4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level10.unity
     guid: d5f1c29fe3a3e47ab962d7a6856e7fad
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/bc36a8fdc422945c881ea742d944025b
-    guid: bc36a8fdc422945c881ea742d944025b
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
